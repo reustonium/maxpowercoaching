@@ -1,6 +1,6 @@
 site:
   name: MaxPowerCoaching
-  site: 'https://astrowind.vercel.app'
+  site: 'https://maxpower.coach'
   base: '/'
   trailingSlash: false
 
