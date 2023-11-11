@@ -1,22 +1,22 @@
 site:
-  name: MaxPowerCoaching
+  name: Max Power Coaching
   site: 'https://maxpower.coach'
   base: '/'
   trailingSlash: false
 
-  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+  googleSiteVerificationId: ydM_T4MxQHagqxY1qrfYP6VokYd0_HgjzfLpCDnQDKE
 
 # Default SEO metadata
 metadata:
   title:
     default: Max Power Coaching
-    template: '%s — AstroWind'
+    template: '%s — Max Power Coaching'
   description: "\U0001F6B4 \U0001F4AA Train with a cycling coach, because your training plan can't talk to you!"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: MaxPowerCoaching
+    site_name: Max Power Coaching
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -63,7 +63,7 @@ apps:
 analytics:
   vendors:
     googleAnalytics:
-      id: null # or "G-XXXXXXXXXX"
+      id: null # or "G-9YH9SBZZW0"
 
 ui:
   theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
