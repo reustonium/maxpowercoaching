@@ -4,13 +4,8 @@ import Layout from '~/layouts/PageLayout.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Note from '~/components/widgets/Note.astro';
 import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
 import Prices from '~/components/widgets/Pricing.astro'
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
 const metadata = {
@@ -55,9 +50,9 @@ const metadata = {
 
   <Features
     id="principles"
-    tagline="Why Train with Me?"
-    title="My Training Principles"
-    subtitle="Building your aerobic engine is the basis for success in all endurance sports.  My principles are based upon the idea that we can build your aerobic engine using modern technology, testing and science while also adhereing to the longstanding methods proven by success."
+    tagline="Why Train with Us?"
+    title="Our Training Principles"
+    subtitle="Building your aerobic engine is the basis for success in all endurance sports.  Our principles are based upon the idea that we can build your aerobic engine using modern technology, testing and science while also adhereing to the longstanding methods proven by success."
     items={[
       {
         title: 'Aerobic Endurance Matters',
@@ -92,7 +87,7 @@ const metadata = {
       {
         title: 'Don\'t reinvent the wheel',
         description:
-          'Endurance training has been around for decades, let\'s build upon the large history of successful training techniques and enhance it with modern technology and approaches.  Don\'t be a slave to the numbers.',
+          'Endurance training has been around for decades, let\'s build upon the large history of successful training techniques and enhance it with modern technology and approaches.',
         icon: 'tabler:bike',
       },
 
@@ -108,7 +103,7 @@ const metadata = {
    prices={[
      {
        title: 'basic',
-       subtitle: 'Not sure you want a full time coach?',
+       subtitle: 'Just dipping your toes?',
        price: 75,
        period: 'per month',
        items: [
@@ -206,6 +201,7 @@ const metadata = {
      },
    ]}
  />
+
 
   <!-- FAQs Widget ******************* -->
 
