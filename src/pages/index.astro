@@ -10,6 +10,7 @@ import Prices from '~/components/widgets/Pricing.astro'
 import FAQs from '~/components/widgets/FAQs.astro';
 
 import podium from '~/assets/images/freedomrun.jpg'
+import podium2 from '~/assets/images/podium2.jpg'
 
 const metadata = {
   title: 'MaxPower Coaching — Because your training plan can\'t talk to you.',
@@ -239,6 +240,42 @@ const metadata = {
  </Fragment>
 </Content>
 
+  <!--Results-->
+
+  <Content
+  title="Results"
+  id="results"
+  subtitle="Here are some of the results achieved by our athletes!"
+    items={[
+      {
+        title: '2023 Results',
+        description:
+          'Criterium - 1st NYS Cat 4 Championship </br> Road - 1 Win </br> Road - 1 Podium </br> Cyclocross - 2 Wins </br> Cyclocross - 2 Podiums',
+        icon: 'tabler:trophy',
+      },
+      {
+        title: '2022 Results',
+        description:
+          'Time Trial - 1st NYS Cat 4 Championship <br> Cyclocross - 1 Win </br> Cyclocross - 7 podiums </br> Road - 2 Podiums',
+        icon: 'tabler:trophy',
+      },
+      {
+        title: '2021 Results',
+        description:
+          'Time Trial - 3rd NYS Championship </br> Cyclocross - 1 Podium',
+        icon: 'tabler:trophy',
+      },
+    ]}
+    image={{
+      src: podium2,
+      alt: 'Colorful Image',
+    }}
+  >
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Athlete Results in USA Cycling Events</h3>
+    </Fragment>
+  </Content>
+
  
  <!-- Contact -->
  <Steps2
@@ -287,4 +324,22 @@ const metadata = {
       }
     ]}
   />
+
+  <!--YouTube -->
+  <Hero title="Analysis of Road Races" tagline="YouTube Race Recaps" id="youtube">
+  <Fragment slot="image">
+    <div class="relative h-0 pb-[56.25%]">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/FOAz780NBAo?si=4tU69Rru9XQ06DSc"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
+        allowfullscreen
+        class="absolute top-0 left-0 w-full h-full"
+      >
+      </iframe>
+    </div>
+  </Fragment>
+</Hero>
 </Layout>

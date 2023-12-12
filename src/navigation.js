@@ -20,12 +20,20 @@ export const headerData = {
       href: getPermalink('/#about'),
     },
     {
+      text: 'Results',
+      href: getPermalink('/#results')
+    },
+    {
       text: 'Contact',
       href: getPermalink('/#contact')
     },
     {
       text: 'FAQ',
       href: getPermalink('/#faq')
+    },
+    {
+      text: 'YouTube',
+      href: getPermalink('/#youtube')
     }
   ],
 };
